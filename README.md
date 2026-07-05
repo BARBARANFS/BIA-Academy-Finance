@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-3.11-blue?logo=python">
+<img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
 <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit">
 <img src="https://img.shields.io/badge/Ollama-LLM-black">
 <img src="https://img.shields.io/badge/Generative-AI-success">
