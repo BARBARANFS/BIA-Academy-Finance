@@ -1,0 +1,90 @@
+[
+  {
+    "id": "quiz_001",
+    "tema": "Liquidez",
+    "dificuldade": "fácil",
+    "pergunta": "Qual investimento tem maior liquidez?",
+    "opcoes": ["Tesouro Selic", "LCI com carência de 90 dias", "Ações"],
+    "resposta_correta": "Tesouro Selic",
+    "explicacao_base": "O Tesouro Selic permite resgate a qualquer momento, sendo ideal para reserva de emergência.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["liquidez", "reserva de emergência"]
+  },
+  {
+    "id": "quiz_002",
+    "tema": "Risco",
+    "dificuldade": "fácil",
+    "pergunta": "Qual desses investimentos apresenta maior risco?",
+    "opcoes": ["CDB com liquidez diária", "Tesouro IPCA", "Criptomoedas"],
+    "resposta_correta": "Criptomoedas",
+    "explicacao_base": "Criptomoedas são altamente voláteis e podem variar muito em pouco tempo.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["risco", "volatilidade"]
+  },
+  {
+    "id": "quiz_003",
+    "tema": "Perfil do Investidor",
+    "dificuldade": "fácil",
+    "pergunta": "Qual perfil busca segurança e baixa volatilidade?",
+    "opcoes": ["Conservador", "Moderado", "Arrojado"],
+    "resposta_correta": "Conservador",
+    "explicacao_base": "O perfil conservador prioriza segurança e previsibilidade nos investimentos.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["perfil", "segurança"]
+  },
+  {
+    "id": "quiz_004",
+    "tema": "Tipos de Investimentos",
+    "dificuldade": "médio",
+    "pergunta": "Qual desses é garantido pelo FGC?",
+    "opcoes": ["CDB", "Tesouro Direto", "Fundos Imobiliários"],
+    "resposta_correta": "CDB",
+    "explicacao_base": "O CDB é protegido pelo Fundo Garantidor de Créditos até R$ 250 mil por CPF.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["fgc", "segurança bancária"]
+  },
+  {
+    "id": "quiz_005",
+    "tema": "Diversificação",
+    "dificuldade": "médio",
+    "pergunta": "Por que é importante diversificar investimentos?",
+    "opcoes": ["Reduz risco", "Aumenta retorno", "Ambos"],
+    "resposta_correta": "Ambos",
+    "explicacao_base": "Diversificar reduz riscos e pode melhorar o retorno ao equilibrar diferentes ativos.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["diversificação", "estratégia"]
+  },
+  {
+    "id": "quiz_006",
+    "tema": "Reserva de Emergência",
+    "dificuldade": "fácil",
+    "pergunta": "Qual investimento é mais indicado para reserva de emergência?",
+    "opcoes": ["Tesouro Selic", "Ações", "Fundos Imobiliários"],
+    "resposta_correta": "Tesouro Selic",
+    "explicacao_base": "Reserva de emergência deve ter liquidez e baixo risco, como o Tesouro Selic.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["reserva", "segurança"]
+  },
+  {
+    "id": "quiz_007",
+    "tema": "Renda Variável",
+    "dificuldade": "médio",
+    "pergunta": "Qual característica define a renda variável?",
+    "opcoes": ["Retorno fixo", "Retorno incerto", "Garantia do governo"],
+    "resposta_correta": "Retorno incerto",
+    "explicacao_base": "Na renda variável, o retorno não é garantido e depende do mercado.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["renda variável", "mercado"]
+  },
+  {
+    "id": "quiz_008",
+    "tema": "Impostos",
+    "dificuldade": "médio",
+    "pergunta": "Qual investimento é isento de Imposto de Renda?",
+    "opcoes": ["LCI/LCA", "CDB", "Tesouro Direto"],
+    "resposta_correta": "LCI/LCA",
+    "explicacao_base": "LCI e LCA são isentas de imposto de renda para pessoa física.",
+    "publico_alvo": ["jovem", "idoso", "visual", "auditivo", "neurodivergente"],
+    "tags": ["impostos", "benefícios"]
+  }
+]

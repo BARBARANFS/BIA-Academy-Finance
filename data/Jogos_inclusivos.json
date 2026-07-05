@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fase_1",
+    "nivel": "facil",
+    "tema": "Organização Financeira",
+    "pergunta": "Você recebeu seu salário. O que fazer primeiro?",
+    "opcoes": [
+      "Gastar tudo",
+      "Guardar parte",
+      "Ignorar planejamento"
+    ],
+    "resposta_correta": "Guardar parte",
+    "pontos": 20,
+    "explicacao_base": "Guardar parte do que você ganha é o primeiro passo para construir estabilidade financeira.",
+    "adaptacao": {
+      "jovem": "Use linguagem de metas e conquistas.",
+      "idoso": "Comparar com guardar dinheiro em casa para emergências.",
+      "visual": "Descrever como um cofrinho enchendo.",
+      "auditivo": "Texto simples e direto.",
+      "neurodivergente": "Passos curtos e objetivos."
+    },
+    "tags": ["salário", "planejamento", "início"]
+  },
+  {
+    "id": "fase_2",
+    "nivel": "medio",
+    "tema": "Diversificação",
+    "pergunta": "Qual estratégia reduz risco?",
+    "opcoes": [
+      "Tudo em 1 investimento",
+      "Diversificar",
+      "Apostar tudo"
+    ],
+    "resposta_correta": "Diversificar",
+    "pontos": 30,
+    "explicacao_base": "Diversificar significa não colocar todo seu dinheiro em um único investimento.",
+    "adaptacao": {
+      "jovem": "Metáfora: não usar só um personagem no jogo.",
+      "idoso": "Comparar com dividir dinheiro em diferentes lugares.",
+      "visual": "Cesta com vários itens.",
+      "auditivo": "Texto simplificado.",
+      "neurodivergente": "Lista clara de opções."
+    },
+    "tags": ["risco", "diversificação"]
+  },
+  {
+    "id": "fase_3",
+    "nivel": "dificil",
+    "tema": "Reserva de Emergência",
+    "pergunta": "Qual prioridade financeira?",
+    "opcoes": [
+      "Consumo imediato",
+      "Reserva de emergência",
+      "Evitar planejamento"
+    ],
+    "resposta_correta": "Reserva de emergência",
+    "pontos": 50,
+    "explicacao_base": "A reserva de emergência protege você de imprevistos e evita dívidas.",
+    "adaptacao": {
+      "jovem": "Missão: sobreviver a imprevistos.",
+      "idoso": "Comparar com guardar para saúde ou urgências.",
+      "visual": "Cofre protegido.",
+      "auditivo": "Explicação direta.",
+      "neurodivergente": "Passos previsíveis."
+    },
+    "tags": ["segurança", "reserva"]
+  }
+]
