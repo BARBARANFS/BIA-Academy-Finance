@@ -52,6 +52,25 @@ Foi justamente dessa necessidade que nasceu a **BIA Academy Finance**.
 
 ---
 
+# 🌟 Por que este projeto é relevante?
+
+A BIA Academy Finance vai além de um chatbot financeiro convencional. O projeto foi concebido para demonstrar como a Inteligência Artificial Generativa pode ser aplicada de forma responsável, acessível e educativa, aproximando conceitos financeiros de diferentes perfis de usuários.
+
+Entre seus principais diferenciais estão:
+
+- 🧠 Utilização de IA Generativa com LLM local (Ollama).
+- 📚 Respostas contextualizadas por meio de RAG (Retrieval-Augmented Generation).
+- ♿ Recursos de acessibilidade voltados para inclusão digital.
+- 🎯 Experiência personalizada para diferentes perfis de usuários.
+- 🛡️ Foco em educação financeira, sem realizar recomendações de investimento.
+- 🎮 Aprendizagem por meio de chat, quiz e jogo educativo.
+- 🏗️ Arquitetura modular, facilitando manutenção e evolução do sistema.
+- 📖 Projeto desenvolvido com foco em boas práticas de documentação e organização de código.
+
+Este projeto demonstra competências em Engenharia de Prompt, Inteligência Artificial Generativa, desenvolvimento de aplicações com Streamlit, integração com modelos locais de IA, arquitetura de software e experiência do usuário (UX), evidenciando a aplicação prática desses conhecimentos em um cenário de impacto social.
+
+---
+
 # 💡 A Solução
 
 A proposta consiste em utilizar Inteligência Artificial Generativa para adaptar automaticamente as respostas conforme o perfil do usuário.
@@ -201,6 +220,25 @@ A aplicação contempla:
 - suporte à leitura em áudio;
 - organização visual clara;
 - foco em inclusão digital.
+
+---
+
+# 💼 Competências Demonstradas
+
+Durante o desenvolvimento da BIA Academy Finance foram aplicados conhecimentos em:
+
+- Python
+- Streamlit
+- Inteligência Artificial Generativa
+- Ollama
+- Engenharia de Prompt
+- Retrieval-Augmented Generation (RAG)
+- Processamento de Linguagem Natural (NLP)
+- Arquitetura de Software
+- Design Centrado no Usuário (User-Centered Design)
+- Acessibilidade Digital
+- Git e GitHub
+- Documentação Técnica
 
 ---
 
