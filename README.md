@@ -23,7 +23,7 @@
 
 A **BIA Academy Finance** é uma assistente virtual inteligente desenvolvida para democratizar a educação financeira utilizando **Inteligência Artificial Generativa**, **LLMs locais**, **Prompt Engineering** e princípios de **acessibilidade digital**.
 
-O projeto foi desenvolvido durante o **Bootcamp Bradesco - IA Generativa**, promovido pela **Digital Innovation One (DIO)**, tendo como propósito demonstrar como a Inteligência Artificial pode ser aplicada para gerar impacto social, inclusão e aprendizado personalizado.
+O projeto foi desenvolvido durante o **Bootcamp Bradesco - GenAI & Dados - IA Generativa**, promovido pela **Digital Innovation One (DIO)**, tendo como propósito demonstrar como a Inteligência Artificial pode ser aplicada para gerar impacto social, inclusão e aprendizado personalizado.
 
 ---
 
