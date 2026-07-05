@@ -1,7 +1,7 @@
 # 💙 BIA Academy Finance
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BARBARANFS/BIA-Academy-Finance/main/assets/imagens_readme/logo.png" alt="BIA Academy Finance" width="700">
+  <img src="https://raw.githubusercontent.com/BARBARANFS/BIA-Academy-Finance/main/assents/imagens_readme/logo.png?raw=1" width="300">
 </p>
 
 <p align="center">
@@ -260,7 +260,7 @@ Durante o desenvolvimento deste projeto foram aplicados conhecimentos em:
 
 # 👩‍💻 Desenvolvido por
 
-**Barbara Nascimento de Freitas Silva**
+**Barbara Freitas**
 
 Graduanda em Ciência de Dados
 
