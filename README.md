@@ -1,25 +1,20 @@
 # 💙 BIA Academy Finance
 
 <p align="center">
-  <img src="assets/imagens_readme/logo.png" width="220"> 
+  <img src="https://raw.githubusercontent.com/BARBARANFS/BIA-Academy-Finance/main/assets/imagens_readme/logo.png" alt="BIA Academy Finance" width="700">
 </p>
 
-<h1 align="center">
-BIA Academy Finance
-</h1>
-
 <p align="center">
-Assistente Inteligente para Educação Financeira com IA Generativa
+<strong>Assistente Inteligente para Educação Financeira com IA Generativa</strong>
 </p>
+
 <p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
-![Ollama](https://img.shields.io/badge/Ollama-LLM-black)
-![AI](https://img.shields.io/badge/Generative-AI-success)
-![RAG](https://img.shields.io/badge/RAG-Implemented-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
-
+<img src="https://img.shields.io/badge/Python-3.11-blue?logo=python">
+<img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit">
+<img src="https://img.shields.io/badge/Ollama-LLM-black">
+<img src="https://img.shields.io/badge/Generative-AI-success">
+<img src="https://img.shields.io/badge/RAG-Implemented-purple">
+<img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
 ---
