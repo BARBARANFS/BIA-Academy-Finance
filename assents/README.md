@@ -1,292 +1,296 @@
 
-# 📁 Assets — BIA Academy Finance
+# 📁 Assents — BIA Academy Finance
 
-1- Estrutura da Pasta Assets
-Esta pasta contém os recursos visuais, diagramas e representações do funcionamento do sistema BIA Academy Finance.
+Esta pasta reúne todos os recursos visuais utilizados na documentação do projeto **BIA Academy Finance**.
 
-Seu objetivo é documentar de forma clara a arquitetura, o fluxo e a experiência do usuário, alinhados com a implementação real do projeto.
+Seu objetivo é facilitar o entendimento da arquitetura, do fluxo de funcionamento e da experiência do usuário, servindo como apoio para documentação técnica, apresentações e portfólio.
 
 ---
 
-## 🧩 Estrutura da Pasta
+# 🧩 1. Estrutura da Pasta
 
-assets/
+```text
+assents/
 ├── diagramas/
 │   └── arquitetura.md
+│
 ├── screenshots/
 │   ├── chat_tela.png
 │   ├── quiz_tela.png
 │   ├── jogo_tela.png
 │   └── api_endpoint.png
+│
 ├── mockups/
 │   ├── quiz_mockup.md
 │   └── jogo_mockup.md
+│
 └── imagens_readme/
+    ├── logo.png
     ├── fluxo.png
     └── inclusao.png
-
-----------------------------------------
-
-2- Diagrama de Arquitetura
-+---------+    +---------+    +---------+    +-----------+    +---------+    +-----------+
-| Usuário | -> | app.py  | -> | api.py  | -> | agente.py | -> |  data/  | -> |  assets/  |
-+---------+    | UI      |    | API     |    | Lógica    |    | Arquivos|    | Diagramas |
-               |Streamlit|    | FastAPI |    | Quiz/Jogo |    | Base    |    | Screens   |
-               +---------+    +---------+    +-----------+    +---------+    | Mockups   |
-                                                                             | Imagens   |
-                                                                             +-----------+
-----------------------------------------
-
-3- Diagrama de Fluxo (Quiz vs Jogo Inclusivo)
-+---------+    +-------------------+    +-------------------+    +-------------------+
-| Usuário | -> | Identificação     | -> | Perfil/Público    | -> | Decisão do Agente |
-+---------+    | (app.py + api.py) |    | alvo detectado    |    | Quiz ou Jogo      |
-               +-------------------+    +-------------------+    +-------------------+
-                                                                  |
-                                                                  v
-+-------------------+    +-------------------+    +-------------------+    +-------------------+
-| Jovem Iniciante   | -> | Quiz Interativo   |    | Idoso             | -> | Jogo Interativo   |
-+-------------------+    +-------------------+    +-------------------+    +-------------------+
-                                                                  |
-                                                                  v
-+-------------------+    +-------------------+    +-------------------+    +-------------------+
-| Def. Visual       | -> | Quiz narrado      |    | Def. Auditivo     | -> | Quiz em Libras    |
-+-------------------+    +-------------------+    +-------------------+    +-------------------+
-                                                                  |
-                                                                  v
-+-------------------+    +-------------------+
-| Neurodivergente   | -> | Jogo em etapas    |
-+-------------------+    +-------------------+
-
-----------------------------------------
-
-4- Mockup em ASCII (quiz_mockup.md)
-----------------------------------------
-|   BIA Academy Finance Inclusiva       |
-----------------------------------------
-    ├── fluxo.png             # Fluxo geral do sistema
-    └── inclusao.png          # Públicos atendidos
+```
 
 ---
 
-# 🧠 2. Arquitetura do Sistema (BIA REAL)
+# 🧠 2. Arquitetura do Sistema
 
-A arquitetura da BIA Academy Finance é local, modular e orientada à educação financeira inclusiva.
+A BIA Academy Finance possui uma arquitetura modular executada localmente, utilizando IA Generativa, RAG e um modelo LLM local através do Ollama.
 
+```text
 +---------+
 | Usuário |
 +---------+
-     ↓
+      │
+      ▼
 +---------------------------+
-| app.py (Streamlit UI)     |
+| app.py (Streamlit)        |
+| Interface do usuário      |
 +---------------------------+
-     ↓
+      │
+      ▼
 +---------------------------+
-| Lógica da Bia             |
-| - Classificação           |
-| - Segurança               |
-| - Adaptação por público   |
+| Lógica da BIA             |
+| • Classificação           |
+| • Segurança               |
+| • Personalização          |
+| • Prompt Engineering      |
 +---------------------------+
-     ↓
+      │
+      ▼
 +----------------------+----------------------+
-| Base local           | RAG (FAISS)          |
-| (Glossário interno)  | Documentos externos  |
+| Base Local           | Base RAG            |
+| Glossário            | Documentos          |
+| CSV                  | FAISS              |
+| JSON                 | Embeddings         |
 +----------------------+----------------------+
-     ↓
+      │
+      ▼
 +---------------------------+
 | LLM Local (Ollama)        |
 +---------------------------+
-     ↓
+      │
+      ▼
 +---------------------------+
-| Resposta adaptada         |
+| Resposta Inteligente      |
 +---------------------------+
-     ↓
+      │
+      ▼
 +---------------------------+
-| Acessibilidade (Áudio)    |
+| Acessibilidade            |
+| • Áudio (gTTS)            |
+| • Linguagem Adaptada      |
 +---------------------------+
+```
 
 ---
 
-# 🔄 3. Fluxo de Funcionamento
+# 🔄 3. Fluxo Geral do Sistema
 
-O sistema é dividido em três módulos principais escolhidos diretamente pelo usuário:
+O usuário escolhe diretamente qual funcionalidade deseja utilizar.
 
-Usuário
-   ↓
-Interface (Streamlit - app.py)
-   ↓
-Seleção de módulo
-
-├── 💬 Chat Educacional
-│   → Pergunta do usuário
-│   → Classificação de intenção
-│   → Busca de contexto (Glossário + RAG)
-│   → Geração de resposta (LLM)
-│   → Adaptação por público
-│   → (Opcional) Geração de áudio
-│
-├── 🧠 Quiz Educativo
-│   → Pergunta estruturada (JSON)
-│   → Resposta do usuário
-│   → Validação da resposta
-│   → Pontuação (+10)
-│   → Atualização de nível
-│   → Explicação com IA + RAG
-│
-└── 🎮 Jogo Evolutivo
-    → Sistema de fases progressivas
-    → Escolha do usuário
-    → Feedback imediato
-    → Pontuação variável (20 / 30 / 50)
-    → Progressão de nível
-    → Sistema de conquistas
-    → Ranking final
+```text
+                 +---------+
+                 | Usuário |
+                 +---------+
+                      │
+                      ▼
+            +----------------------+
+            | app.py (Streamlit)   |
+            +----------------------+
+                      │
+                      ▼
+              Escolha do módulo
+                      │
+     ┌───────────────┼───────────────┐
+     ▼               ▼               ▼
++-----------+   +-----------+   +-----------+
+| Chat IA   |   | Quiz      |   | Jogo      |
++-----------+   +-----------+   +-----------+
+     │               │               │
+     ▼               ▼               ▼
+Pergunta       Perguntas        Fases
+do usuário     educativas       progressivas
+     │               │               │
+     ▼               ▼               ▼
+Busca de       Validação       Feedback
+contexto       da resposta     imediato
+(RAG)               │               │
+     │               ▼               ▼
+     │          Pontuação      Pontuação
+     │               │               │
+     └───────────────┼───────────────┘
+                     ▼
+             Resposta Adaptada
+                     │
+                     ▼
+             Áudio (Opcional)
+```
 
 ---
 
-# 🎯 4. Conceitos-Chave do Sistema
+# 🎯 4. Conceitos do Sistema
 
-## 🔹 Escolha do Usuário
-O usuário decide qual experiência utilizar:
-- Chat
-- Quiz
-- Jogo
+## Escolha do Usuário
 
-## 🔹 Adaptação por Público
-A Bia adapta a comunicação conforme o perfil selecionado:
-- Investidor iniciante
-- Idoso
-- Deficiência auditiva
-- Deficiência visual
-- Neurodivergente
+O usuário pode acessar livremente qualquer módulo:
 
-## 🔹 Educação, não recomendação
-O sistema:
-- Explica conceitos financeiros
-- Usa exemplos práticos
-- NÃO recomenda investimentos
+* 💬 Chat Educacional
+* 🧠 Quiz Educativo
+* 🎮 Jogo Evolutivo
 
-## 🔹 Segurança
-- Bloqueio de recomendações
-- Respostas baseadas em contexto (RAG + base interna)
-- Controle de linguagem
+---
+
+## Inteligência Artificial
+
+A BIA utiliza:
+
+* IA Generativa
+* Prompt Engineering
+* Base de Conhecimento Local
+* RAG (Retrieval-Augmented Generation)
+* LLM Local (Ollama)
+
+---
+
+## Adaptação por Público
+
+As respostas são adaptadas conforme o perfil selecionado:
+
+* Investidor iniciante
+* Idosos
+* Pessoas com deficiência visual
+* Pessoas com deficiência auditiva
+* Pessoas neurodivergentes
+
+---
+
+## Segurança
+
+A BIA não realiza recomendações financeiras.
+
+Ela:
+
+* explica conceitos;
+* apresenta exemplos;
+* utiliza documentos internos;
+* evita aconselhamento financeiro.
 
 ---
 
 # 🧠 5. Mockup — Quiz
 
-| BIA Academy Finance |
+```text
++--------------------------------------+
+|      BIA Academy Finance             |
++--------------------------------------+
 
-Pergunta: Qual investimento tem maior liquidez?
-[ ] Tesouro Selic
-[ ] LCI com carência de 90 dias
-[ ] Ações
+Pergunta:
 
-Botão: Confirmar resposta
-Feedback: "O Tesouro Selic pode ser resgatado a qualquer momento."
+Qual investimento possui maior liquidez?
+
+( ) Tesouro Selic
+( ) LCI
+( ) Ações
+
+[ Confirmar ]
+
+Feedback:
+
+"O Tesouro Selic pode ser resgatado diariamente."
+
 Pontuação: +10
-----------------------------------------
-
-5- Mockup em ASCII (jogo_mockup.md)
-----------------------------------------
-| História Interativa: Maria investindo |
-----------------------------------------
-Cenário: Maria quer montar uma reserva de emergência.
-Pergunta: Qual metáfora representa melhor esse conceito?
-[ ] Cofre
-[ ] Sementes
-[ ] Fruta
-
-Botão: Escolher
-Feedback: "O cofre simboliza segurança e liquidez, como o Tesouro Selic."
-Pontuação: +10
-----------------------------------------
-
-( ) Tesouro Selic  
-( ) LCI com carência  
-( ) Ações  
-
-[Responder]
-
-💡 Feedback:
-"O Tesouro Selic pode ser resgatado a qualquer momento."
-
-🏆 Pontuação: +10  
-📊 Nível: atualizado automaticamente
+```
 
 ---
 
 # 🎮 6. Mockup — Jogo Evolutivo
 
-| BIA Academy Finance |
+```text
++--------------------------------------+
+|      BIA Academy Finance             |
++--------------------------------------+
 
-🧩 Fase 1  
-Você recebeu seu salário. O que fazer primeiro?
+Fase 1
 
-( ) Gastar tudo  
-( ) Guardar parte  
-( ) Ignorar planejamento  
+Você recebeu seu salário.
 
-[Responder]
+O que deve fazer primeiro?
 
-💡 Feedback:
-"Guardar cria base financeira."
+( ) Gastar tudo
 
-🏆 Pontuação: +20  
-📊 Nível: Iniciante → Intermediário  
+( ) Guardar parte
+
+( ) Ignorar planejamento
+
+[ Responder ]
+
+Feedback:
+
+"Guardar parte da renda ajuda na construção
+da reserva de emergência."
+
+Pontuação: +20
+
+Nível:
+Iniciante → Intermediário
+```
 
 ---
 
-# 🧠 7. Lógica de Progressão
+# 🏆 7. Sistema de Progressão
 
 ## Pontuação
-- Quiz: +10 por acerto
-- Jogo: +20 / +30 / +50 por fase
+
+* Quiz → +10 pontos por acerto
+* Jogo → +20, +30 ou +50 pontos por fase
+
+---
 
 ## Níveis
-- 0 a 49 → Iniciante  
-- 50 a 99 → Intermediário  
-- 100+ → Avançado  
+
+| Pontuação | Nível         |
+| --------- | ------------- |
+| 0–49      | Iniciante     |
+| 50–99     | Intermediário |
+| 100+      | Avançado      |
+
+---
 
 ## Conquistas
-- 🎯 Primeira conquista → 20 pontos  
-- 🏆 100 pontos → 100 pontos  
-- 🚀 Jornada completa → finalizar fases  
+
+* 🎯 Primeira conquista
+* 🏆 100 pontos
+* 🚀 Jornada completa
+
+---
 
 ## Ranking
-- Top 5 jogadores
-- Ordenado por pontuação
+
+Exibe os cinco usuários com maior pontuação.
 
 ---
 
-# 🎧 8. Acessibilidade
+# 🎧 8. Recursos de Acessibilidade
 
-A BIA Academy Finance possui recursos de inclusão:
+A plataforma foi desenvolvida seguindo princípios de inclusão.
 
-- 🔊 Áudio automático (para deficiência visual)
-- 🧠 Respostas estruturadas (neurodivergentes)
-- 👂 Texto simplificado (deficiência auditiva)
-- 👵 Linguagem adaptada (idosos)
+Recursos disponíveis:
 
----
-
-# 📸 9. Screenshots
-
-As imagens desta pasta representam a interface real do sistema:
-
-- chat_tela.png → Conversa com IA
-- quiz_tela.png → Sistema de perguntas
-- jogo_tela.png → Jornada evolutiva
+* 🔊 Conversão de texto em áudio (gTTS)
+* 👵 Linguagem simplificada para idosos
+* 🧠 Respostas estruturadas para neurodivergentes
+* 👂 Conteúdo textual simplificado
+* ♿ Interface acessível
 
 ---
 
-# 🧭 10. Considerações Finais
+# 🧭 9. Considerações Finais
 
-A pasta `assets` não contém lógica de código.
+A pasta **assets** possui finalidade exclusivamente documental.
 
-Seu papel é:
-- Documentar visualmente o sistema
-- Facilitar entendimento do projeto
-- Apoiar apresentações e validações
+Ela reúne diagramas, mockups, imagens e recursos visuais utilizados para explicar o funcionamento da **BIA Academy Finance**, apoiando apresentações, documentação técnica e o portfólio do projeto.
 
-Toda a lógica funcional está na pasta `src/`.
+Toda a implementação da aplicação encontra-se na pasta **`src/`**.
+
+---
+
