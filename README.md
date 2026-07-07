@@ -1,313 +1,164 @@
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="BIA Academy Finance">
+</p>
+
 # 💙 BIA Academy Finance
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BARBARANFS/BIA-Academy-Finance/main/assents/imagens_readme/logo.png?raw=1" width="400">
-</p>
+> **Generative AI for Financial Education**
 
-<p align="center">
-<strong>Assistente Inteligente para Educação Financeira com IA Generativa</strong>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
-<img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit">
-<img src="https://img.shields.io/badge/Ollama-LLM-black">
-<img src="https://img.shields.io/badge/Generative-AI-success">
-<img src="https://img.shields.io/badge/RAG-Implemented-purple">
-<img src="https://img.shields.io/badge/License-MIT-green">
-</p>
+Assistente inteligente desenvolvido para promover **educação financeira acessível, personalizada e inclusiva**, utilizando Inteligência Artificial Generativa, RAG (Retrieval-Augmented Generation) e modelos locais (LLMs).
 
 ---
 
-# 🚀 BIA Academy Finance
+# 📌 Sobre o Projeto
 
-A **BIA Academy Finance** é uma assistente virtual inteligente desenvolvida para democratizar a educação financeira utilizando **Inteligência Artificial Generativa**, **LLMs locais**, **Prompt Engineering** e princípios de **acessibilidade digital**.
+A **BIA Academy Finance** é uma aplicação desenvolvida para demonstrar como Inteligência Artificial Generativa pode apoiar processos de aprendizagem de forma personalizada.
 
-O projeto foi desenvolvido durante o **Bootcamp Bradesco - GenAI & Dados - IA Generativa**, promovido pela **Digital Innovation One (DIO)**, tendo como propósito demonstrar como a Inteligência Artificial pode ser aplicada para gerar impacto social, inclusão e aprendizado personalizado.
+O projeto integra uma base estruturada de conhecimento financeiro, construída a partir do projeto **MiniGuia SFN Investimentos**, permitindo que a IA forneça respostas contextualizadas, confiáveis e adaptadas ao perfil do usuário.
 
----
-
-# 🎥 Demonstração
-
-Assista à demonstração completa da aplicação:
-
-▶️ **https://youtu.be/yQBAAxrRH20**
+Além da conversação inteligente, a aplicação incorpora recursos de acessibilidade, gamificação e experiências interativas voltadas à educação financeira.
 
 ---
 
-# 🌍 O Problema
+# 🎯 Problema de Negócio
 
-A exclusão financeira vai muito além da ausência de recursos financeiros.
+Apesar da grande disponibilidade de conteúdos sobre investimentos, muitos iniciantes encontram dificuldades para identificar informações confiáveis, compreender conceitos financeiros e aprender de forma adequada ao seu nível de conhecimento.
 
-Ela também está relacionada à dificuldade de compreender conceitos financeiros devido a fatores como:
-
-- linguagem excessivamente técnica;
-- falta de personalização;
-- ausência de recursos de acessibilidade;
-- conteúdos pouco adaptados ao perfil do usuário.
-
-O acesso à informação não garante necessariamente a compreensão.
-
-Foi justamente dessa necessidade que nasceu a **BIA Academy Finance**.
+Este projeto demonstra como Inteligência Artificial Generativa pode tornar o aprendizado mais acessível, personalizado e inclusivo, aproximando tecnologia e educação financeira.
 
 ---
 
-# 🌟 Por que este projeto é relevante?
+# ⭐ Por que este projeto é relevante?
 
-A BIA Academy Finance vai além de um chatbot financeiro convencional. O projeto foi concebido para demonstrar como a Inteligência Artificial Generativa pode ser aplicada de forma responsável, acessível e educativa, aproximando conceitos financeiros de diferentes perfis de usuários.
+Grande parte dos projetos com IA Generativa demonstra apenas a integração com um modelo de linguagem.
 
-Entre seus principais diferenciais estão:
+A **BIA Academy Finance** vai além, apresentando uma solução que integra diferentes componentes de IA para resolver um problema real de negócio.
 
-- 🧠 Utilização de IA Generativa com LLM local (Ollama).
-- 📚 Respostas contextualizadas por meio de RAG (Retrieval-Augmented Generation).
-- ♿ Recursos de acessibilidade voltados para inclusão digital.
-- 🎯 Experiência personalizada para diferentes perfis de usuários.
-- 🛡️ Foco em educação financeira, sem realizar recomendações de investimento.
-- 🎮 Aprendizagem por meio de chat, quiz e jogo educativo.
-- 🏗️ Arquitetura modular, facilitando manutenção e evolução do sistema.
-- 📖 Projeto desenvolvido com foco em boas práticas de documentação e organização de código.
+O projeto reúne conceitos de:
 
-Este projeto demonstra competências em Engenharia de Prompt, Inteligência Artificial Generativa, desenvolvimento de aplicações com Streamlit, integração com modelos locais de IA, arquitetura de software e experiência do usuário (UX), evidenciando a aplicação prática desses conhecimentos em um cenário de impacto social.
+- 🧠 Inteligência Artificial Generativa
+- 📚 Retrieval-Augmented Generation (RAG)
+- 🗂️ Engenharia de Conhecimento
+- 💬 Prompt Engineering
+- 🎮 Gamificação
+- ♿ Acessibilidade Digital
+- 🎓 User-Centered Design
 
----
-
-# 💡 A Solução
-
-A proposta consiste em utilizar Inteligência Artificial Generativa para adaptar automaticamente as respostas conforme o perfil do usuário.
-
-Entre os públicos considerados estão:
-
-- 👩 Iniciantes
-- 👴 Idosos
-- 👨‍🦯 Pessoas com deficiência visual
-- 🧏 Pessoas com deficiência auditiva
-- 🧠 Pessoas neurodivergentes
-
-Mais do que responder perguntas, a BIA atua como uma **mediadora do aprendizado financeiro**.
+Mais do que um chatbot, a BIA demonstra como IA pode ser utilizada para criar experiências inteligentes de aprendizagem.
 
 ---
 
-# 🧠 Fundamentos Teóricos Aplicados
+# 🏗 Arquitetura da Solução
 
-O projeto foi construído com base em importantes conceitos utilizados atualmente no desenvolvimento de produtos digitais.
-
-- User-Centered Design (UCD)
-- Acessibilidade Digital (WCAG)
-- Prompt Engineering
-- Inteligência Artificial Generativa
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- Gamificação
-- Design Inclusivo
-
----
-
-# 🏗 Arquitetura do Projeto
-
+```text
+                Base de Conhecimento
+              (MiniGuia SFN Investimentos)
+                         │
+                         ▼
+              Indexação e Recuperação (RAG)
+                         │
+                         ▼
+                 LLM Local (Ollama)
+                         │
+                         ▼
+          Geração de Respostas Contextualizadas
+                         │
+         ┌───────────────┼───────────────┐
+         ▼               ▼               ▼
+   Conversa IA        Quiz         Jogo Educativo
+                         │
+                         ▼
+               Interface Streamlit
 ```
-BIA-Academy-Finance/
 
+---
+
+# 🚀 Principais Funcionalidades
+
+- 💬 Assistente conversacional inteligente
+- 📚 Respostas contextualizadas utilizando RAG
+- 🧠 Integração com modelos locais via Ollama
+- 🎮 Quiz sobre educação financeira
+- 🕹️ Jogo educativo interativo
+- 👥 Conteúdo adaptado para diferentes perfis de usuários
+- ♿ Interface com foco em acessibilidade
+
+---
+
+# 🛠️ Tecnologias
+
+| Categoria | Tecnologias |
+|-----------|-------------|
+| Linguagem | Python |
+| IA Generativa | Ollama |
+| RAG | LangChain |
+| Interface | Streamlit |
+| Banco de Conhecimento | JSON |
+| Engenharia de Prompt | Prompt Engineering |
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+BIA-Academy-Finance/
+│
 ├── assets/
-│   └── imagens
-│
 ├── data/
-│   ├── jogos
-│   ├── quizzes
-│      
-│
-├── docs/
-│   ├── documentação
-│   ├── prompts
-│   ├── métricas
-│   └── pitch
-│
-├── requirements/
-│   └── requirements.txt
-│
+├── prompts/
 ├── src/
-│   ├── app.py
-│   └── meu_rag.py
-│
+├── app.py
+├── requirements.txt
 └── README.md
 ```
 
-Essa organização facilita:
+---
 
-- manutenção;
-- escalabilidade;
-- reutilização de código;
-- evolução do projeto.
+# 📷 Demonstração
+
+O banner apresentado no início deste README representa a interface principal da aplicação, destacando o assistente virtual, os recursos de IA Generativa, RAG, gamificação e acessibilidade.
 
 ---
 
-# ⚙ Tecnologias Utilizadas
+# 🌱 Evolução do Ecossistema
 
-- Python
-- Streamlit
-- Ollama
-- Modelos LLM
-- JSON
-- Prompt Engineering
-- IA Generativa
-- RAG
-- Git
-- GitHub
+Este projeto representa a evolução natural da base de conhecimento desenvolvida no **MiniGuia SFN Investimentos**.
 
----
-
-# 🧩 Como a IA funciona
-
-A lógica da aplicação segue um fluxo simples.
-
-```
-Usuário
-
-↓
-
-Seleciona seu perfil
-
-↓
-
-Faz uma pergunta
-
-↓
-
-O sistema adapta o contexto
-
-↓
-
-O modelo LLM gera uma resposta personalizada
+```text
+MiniGuia SFN Investimentos
+           │
+           ▼
+ Engenharia de Conhecimento
+           │
+           ▼
+ Recuperação Inteligente (RAG)
+           │
+           ▼
+ BIA Academy Finance
 ```
 
-Exemplo simplificado:
-
-```python
-if publico == "Idoso":
-    resposta = explicar_de_forma_simples()
-
-elif publico == "Deficiência visual":
-    resposta = detalhar_para_audio()
-
-else:
-    resposta = resposta_padrao()
-```
-
-Esse modelo implementa adaptação cognitiva utilizando Inteligência Artificial.
-
 ---
 
-# 🎮 Gamificação
+# 🔮 Próximos Passos
 
-A aplicação utiliza conceitos de gamificação para incentivar o aprendizado contínuo.
-
-Entre eles:
-
-- sistema de evolução;
-- níveis de aprendizagem;
-- incentivo ao progresso;
-- aprendizado contínuo.
-
----
-
-# 🔊 Acessibilidade
-
-A acessibilidade foi tratada como um dos pilares do projeto.
-
-A aplicação contempla:
-
-- respostas simplificadas;
-- linguagem adaptativa;
-- suporte à leitura em áudio;
-- organização visual clara;
-- foco em inclusão digital.
-
----
-
-# 💼 Competências Demonstradas
-
-Durante o desenvolvimento da BIA Academy Finance foram aplicados conhecimentos em:
-
-- Python
-- Streamlit
-- Inteligência Artificial Generativa
-- Ollama
-- Engenharia de Prompt
-- Retrieval-Augmented Generation (RAG)
-- Processamento de Linguagem Natural (NLP)
-- Arquitetura de Software
-- Design Centrado no Usuário (User-Centered Design)
-- Acessibilidade Digital
-- Git e GitHub
-- Documentação Técnica
-
----
-
-# 🎨 Interface
-
-A interface foi construída utilizando **Streamlit**, priorizando:
-
-- simplicidade;
-- clareza;
-- usabilidade;
-- rapidez de navegação.
-
----
-
-# 📈 Próximas Evoluções
-
-Entre as melhorias planejadas estão:
-
-- Deploy em nuvem
-- Banco de dados
-- API própria
-- Fine-tuning
-- Dashboard analítico
-- Monitoramento de métricas
+- Histórico das conversas
+- Recomendações personalizadas de conteúdos
+- Integração com APIs financeiras
+- Dashboard de evolução do usuário
+- Avaliação automática do aprendizado
 - Expansão da base de conhecimento
-- Novos modelos LLM
 
 ---
 
-# 🌎 Impacto Social
-
-Mais do que um chatbot, a BIA Academy Finance representa uma iniciativa voltada para:
-
-- democratização da educação financeira;
-- inclusão digital;
-- acessibilidade;
-- uso responsável da Inteligência Artificial.
-
----
-
-# 📚 Aprendizados
-
-Durante o desenvolvimento deste projeto foram aplicados conhecimentos em:
-
-- Engenharia de Prompt
-- IA Generativa
-- RAG
-- Python
-- Streamlit
-- Git
-- GitHub
-- Arquitetura de Software
-- UX
-- Design Inclusivo
-
----
-
-# 👩‍💻 Desenvolvido por
+# 👩‍💻 Autora
 
 **Barbara Freitas**
 
-Graduanda em Ciência de Dados
+Data Analytics • Machine Learning • Generative AI • Financial Intelligence
 
-Apaixonada por Inteligência Artificial, Ciência de Dados, Inclusão Digital e Desenvolvimento de Soluções com Impacto Social.
-
-GitHub:
-
-https://github.com/BARBARANFS
+- GitHub: https://github.com/BARBARANFS
+- LinkedIn: https://www.linkedin.com/in/barbarafreitas-dataanalytics
 
 ---
 
-> **"Tecnologia só transforma vidas quando é construída para incluir pessoas."**
+⭐ Se este projeto foi interessante para você, considere deixar uma estrela no repositório.
