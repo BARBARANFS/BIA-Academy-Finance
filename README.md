@@ -6,13 +6,21 @@
 
 > **Generative AI for Financial Education**
 
-Assistente inteligente desenvolvido para promover **educação financeira acessível, personalizada e inclusiva**, utilizando Inteligência Artificial Generativa, RAG (Retrieval-Augmented Generation) e modelos locais (LLMs).
+Assistente inteligente desenvolvido para promover **educação financeira acessível, personalizada e inclusiva**, utilizando Inteligência Artificial Generativa, Retrieval-Augmented Generation (RAG) e Large Language Models (LLMs) executados localmente.
+
+---
+
+# 🎥 Demonstração
+
+📺 **Assista à apresentação do projeto (3 minutos):**
+
+https://youtu.be/yQBAAxrRH20
 
 ---
 
 # 📌 Sobre o Projeto
 
-A **BIA Academy Finance** é uma aplicação desenvolvida para demonstrar como Inteligência Artificial Generativa pode apoiar processos de aprendizagem de forma personalizada.
+A **BIA Academy Finance** é uma aplicação desenvolvida para demonstrar como Inteligência Artificial Generativa pode apoiar processos de aprendizagem financeira de forma personalizada.
 
 O projeto integra uma base estruturada de conhecimento financeiro, construída a partir do projeto **MiniGuia SFN Investimentos**, permitindo que a IA forneça respostas contextualizadas, confiáveis e adaptadas ao perfil do usuário.
 
@@ -22,19 +30,19 @@ Além da conversação inteligente, a aplicação incorpora recursos de acessibi
 
 # 🎯 Problema de Negócio
 
-Apesar da grande disponibilidade de conteúdos sobre investimentos, muitos iniciantes encontram dificuldades para identificar informações confiáveis, compreender conceitos financeiros e aprender de forma adequada ao seu nível de conhecimento.
+Apesar da grande disponibilidade de conteúdos sobre investimentos, muitas pessoas ainda encontram dificuldades para acessar informações confiáveis, compreender conceitos financeiros e aprender de acordo com seu nível de conhecimento.
 
-Este projeto demonstra como Inteligência Artificial Generativa pode tornar o aprendizado mais acessível, personalizado e inclusivo, aproximando tecnologia e educação financeira.
+A BIA Academy Finance foi desenvolvida para demonstrar como Inteligência Artificial Generativa pode tornar o aprendizado mais acessível, personalizado e interativo, aproximando tecnologia e educação financeira.
 
 ---
 
 # ⭐ Por que este projeto é relevante?
 
-Grande parte dos projetos com IA Generativa demonstra apenas a integração com um modelo de linguagem.
+Grande parte dos projetos de IA Generativa limita-se à integração de um modelo de linguagem.
 
-A **BIA Academy Finance** vai além, apresentando uma solução que integra diferentes componentes de IA para resolver um problema real de negócio.
+A **BIA Academy Finance** demonstra uma aplicação completa, integrando diferentes componentes para resolver um problema real de negócio: democratizar o acesso à educação financeira.
 
-O projeto reúne conceitos de:
+O projeto reúne conhecimentos em:
 
 - 🧠 Inteligência Artificial Generativa
 - 📚 Retrieval-Augmented Generation (RAG)
@@ -42,7 +50,7 @@ O projeto reúne conceitos de:
 - 💬 Prompt Engineering
 - 🎮 Gamificação
 - ♿ Acessibilidade Digital
-- 🎓 User-Centered Design
+- 👤 User-Centered Design (UCD)
 
 Mais do que um chatbot, a BIA demonstra como IA pode ser utilizada para criar experiências inteligentes de aprendizagem.
 
@@ -51,50 +59,52 @@ Mais do que um chatbot, a BIA demonstra como IA pode ser utilizada para criar ex
 # 🏗 Arquitetura da Solução
 
 ```text
-                Base de Conhecimento
-              (MiniGuia SFN Investimentos)
+                 Base de Conhecimento
+            (MiniGuia SFN Investimentos)
                          │
                          ▼
-              Indexação e Recuperação (RAG)
+             Recuperação Inteligente (RAG)
                          │
                          ▼
-                 LLM Local (Ollama)
+                  LLM Local (Ollama)
                          │
                          ▼
-          Geração de Respostas Contextualizadas
+           Geração de Respostas Inteligentes
                          │
-         ┌───────────────┼───────────────┐
-         ▼               ▼               ▼
-   Conversa IA        Quiz         Jogo Educativo
+        ┌────────────────┼────────────────┐
+        ▼                ▼                ▼
+ Conversação IA      Quiz Financeiro   Jogo Educativo
                          │
                          ▼
-               Interface Streamlit
+                Interface Streamlit
 ```
 
 ---
 
 # 🚀 Principais Funcionalidades
 
-- 💬 Assistente conversacional inteligente
+- 💬 Assistente financeiro inteligente
 - 📚 Respostas contextualizadas utilizando RAG
-- 🧠 Integração com modelos locais via Ollama
+- 🧠 Integração com LLMs locais via Ollama
 - 🎮 Quiz sobre educação financeira
 - 🕹️ Jogo educativo interativo
 - 👥 Conteúdo adaptado para diferentes perfis de usuários
-- ♿ Interface com foco em acessibilidade
+- ♿ Interface acessível
+- 📖 Base estruturada de conhecimento financeiro
 
 ---
 
-# 🛠️ Tecnologias
+# 🛠️ Tecnologias Utilizadas
 
 | Categoria | Tecnologias |
 |-----------|-------------|
 | Linguagem | Python |
-| IA Generativa | Ollama |
-| RAG | LangChain |
 | Interface | Streamlit |
-| Banco de Conhecimento | JSON |
+| IA Generativa | Ollama |
+| Framework IA | LangChain |
+| Base de Conhecimento | JSON |
 | Engenharia de Prompt | Prompt Engineering |
+| Recuperação de Conhecimento | RAG |
 
 ---
 
@@ -114,27 +124,40 @@ BIA-Academy-Finance/
 
 ---
 
-# 📷 Demonstração
+# 💼 Competências Demonstradas
 
-O banner apresentado no início deste README representa a interface principal da aplicação, destacando o assistente virtual, os recursos de IA Generativa, RAG, gamificação e acessibilidade.
+Durante o desenvolvimento deste projeto foram aplicados conhecimentos em:
+
+- IA Generativa
+- Prompt Engineering
+- Retrieval-Augmented Generation (RAG)
+- Engenharia de Conhecimento
+- Desenvolvimento de aplicações com Streamlit
+- User-Centered Design (UCD)
+- Acessibilidade Digital
+- Estruturação de bases de conhecimento
+- Desenvolvimento de soluções orientadas ao usuário
 
 ---
 
-# 🌱 Evolução do Ecossistema
+# 🌐 Papel no Ecossistema
 
-Este projeto representa a evolução natural da base de conhecimento desenvolvida no **MiniGuia SFN Investimentos**.
+A **BIA Academy Finance** representa a evolução natural da base de conhecimento construída no projeto **MiniGuia SFN Investimentos**, transformando conhecimento estruturado em uma aplicação inteligente capaz de interagir com usuários em linguagem natural.
 
 ```text
 MiniGuia SFN Investimentos
-           │
-           ▼
+            │
+            ▼
  Engenharia de Conhecimento
-           │
-           ▼
+            │
+            ▼
  Recuperação Inteligente (RAG)
-           │
-           ▼
+            │
+            ▼
  BIA Academy Finance
+            │
+            ▼
+ Educação Financeira Inteligente
 ```
 
 ---
@@ -143,10 +166,10 @@ MiniGuia SFN Investimentos
 
 - Histórico das conversas
 - Recomendações personalizadas de conteúdos
-- Integração com APIs financeiras
 - Dashboard de evolução do usuário
-- Avaliação automática do aprendizado
-- Expansão da base de conhecimento
+- Integração com APIs financeiras
+- Ampliação da base de conhecimento
+- Novos recursos de acessibilidade
 
 ---
 
@@ -154,11 +177,18 @@ MiniGuia SFN Investimentos
 
 **Barbara Freitas**
 
-Data Analytics • Machine Learning • Generative AI • Financial Intelligence
+📊 Data Analytics • Machine Learning • Generative AI • Financial Intelligence
 
-- GitHub: https://github.com/BARBARANFS
-- LinkedIn: https://www.linkedin.com/in/barbarafreitas-dataanalytics
+🔗 GitHub  
+https://github.com/BARBARANFS
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/barbarafreitas-dataanalytics
 
 ---
 
+<div align="center">
+
 ⭐ Se este projeto foi interessante para você, considere deixar uma estrela no repositório.
+
+</div>
